@@ -1,0 +1,22 @@
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s;
+}
+
+.card img,
+.card video {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebc59;
+  color: white;
+}
